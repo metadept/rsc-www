@@ -44,15 +44,6 @@ export default function Login(props) {
                     <div className="rsc-col rsc-col-100">
                         <div className="rsc-box">
                             {askLogin}
-                            <p>
-                                Never enter your password anywhere except
-                                2003scape.com
-                            </p>
-                            <img
-                                className="rsc-image"
-                                src="/only-2003scape.gif"
-                                alt="Only enter your password on 2003scape.com"
-                            />
                             {message}
                             <div className="rsc-form rsc-login-form">
                                 <form
@@ -75,7 +66,7 @@ export default function Login(props) {
                                             htmlFor="username"
                                             className="rsc-col rsc-col-50 rsc-form-label"
                                         >
-                                            2003Scape Username:
+                                            Username:
                                         </label>
                                         <div className="rsc-col rsc-col-50">
                                             <UsernameInput
@@ -89,7 +80,7 @@ export default function Login(props) {
                                             htmlFor="password"
                                             className="rsc-col rsc-col-50 rsc-form-label"
                                         >
-                                            2003Scape Password:
+                                            Password:
                                         </label>
                                         <div className="rsc-col rsc-col-50">
                                             <input
